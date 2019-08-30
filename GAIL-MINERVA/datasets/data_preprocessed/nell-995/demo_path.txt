@@ -1,0 +1,5 @@
+concept:worksfor
+concept:organizationhiredperson
+concept:personleadsorganization
+concept:organizationheadquarteredincity
+concept:athleteplayssport

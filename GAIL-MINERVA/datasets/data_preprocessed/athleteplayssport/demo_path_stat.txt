@@ -1,0 +1,43 @@
+concept:athleteplaysinleague -> concept:teamplaysinleague_inv -> concept:teamplayssport	295
+concept:athleteplaysforteam -> concept:teamplayssport	129
+concept:athletehomestadium -> concept:sportusesstadium_inv	116
+concept:athleteledsportsteam -> concept:teamplayssport	105
+concept:coachwontrophy -> concept:awardtrophytournamentisthechampionshipgameofthenationalsport	21
+concept:athleteplaysforteam -> concept:teamplaysagainstteam_inv -> concept:teamplayssport	18
+concept:athleteplaysinleague -> concept:subpartoforganization_inv -> concept:teamplayssport	15
+concept:athleteledsportsteam -> concept:teamplaysagainstteam_inv -> concept:teamplayssport	10
+concept:athletehomestadium -> concept:teamhomestadium_inv -> concept:teamplayssport	9
+concept:athleteplaysforteam -> concept:teamplaysagainstteam -> concept:teamplayssport	9
+concept:athletewinsawardtrophytournament -> concept:awardtrophytournamentisthechampionshipgameofthenationalsport	7
+concept:athleteflyouttosportsteamposition -> concept:sporthassportsteamposition_inv	6
+concept:athleteplaysinleague -> concept:subpartoforganization_inv -> concept:teamplaysagainstteam -> concept:teamplayssport	5
+concept:agentcollaborateswithagent_inv -> concept:teamplayssport	3
+concept:athleteflyouttosportsteamposition -> concept:athleteflyouttosportsteamposition_inv -> concept:athletehomestadium -> concept:sportusesstadium_inv	3
+concept:organizationhiredperson_inv -> concept:teamplayssport	3
+concept:athleteledsportsteam -> concept:teamplaysagainstteam -> concept:teamplayssport	2
+concept:agentcollaborateswithagent_inv -> concept:teamplaysagainstteam_inv -> concept:teamplayssport	1
+concept:athleteinjuredhisbodypart -> concept:athleteinjuredhisbodypart_inv -> concept:personbelongstoorganization -> concept:teamplayssport	1
+concept:athleteplaysinleague -> concept:subpartoforganization_inv -> concept:proxyfor -> concept:sportusesstadium_inv	1
+concept:athleteledsportsteam -> concept:teamplaysagainstteam_inv -> concept:proxyfor -> concept:proxyfor_inv	1
+concept:athletewinsawardtrophytournament -> concept:athletewinsawardtrophytournament_inv -> concept:athletewinsawardtrophytournament -> concept:teamwontrophy_inv -> concept:teamplayssport	1
+concept:athletehomestadium -> concept:stadiumlocatedincity -> concept:atdate -> concept:atdate_inv -> concept:sportfansincountry_inv	1
+concept:athleteplaysforteam -> concept:teamplayssport -> concept:sportfansincountry -> concept:sportfansincountry_inv	1
+concept:athletebeatathlete -> concept:athletewinsawardtrophytournament -> concept:athletewinsawardtrophytournament_inv -> concept:athletewinsawardtrophytournament -> concept:teamwontrophy_inv -> concept:teamplayssport	1
+concept:athletebeatathlete -> concept:athleteledsportsteam -> concept:teamplayssport	1
+concept:athletehomestadium -> concept:leaguestadiums_inv -> concept:proxyfor -> concept:proxyfor_inv	1
+concept:coachwontrophy -> concept:teamwontrophy_inv -> concept:teamplayssport	1
+concept:coachesinleague -> concept:teamplaysinleague_inv -> concept:teamplayssport	1
+concept:coachesteam -> concept:teamplayssport	1
+concept:organizationhiredperson_inv -> concept:agentcompeteswithagent_inv -> concept:agentcompeteswithagent -> concept:teamplayssport	1
+concept:athletebeatathlete_inv -> concept:athletewinsawardtrophytournament -> concept:awardtrophytournamentisthechampionshipgameofthenationalsport	1
+concept:agentcontrols_inv -> concept:teamplayssport	1
+concept:organizationhiredperson_inv -> concept:teamplayssport -> concept:sportusesequipment -> concept:sportusesequipment_inv	1
+concept:athletewinsawardtrophytournament -> concept:teamwontrophy_inv -> concept:teamplayssport	1
+concept:agentbelongstoorganization -> concept:teamplaysinleague_inv -> concept:teamplayssport	1
+concept:athleteinjuredhisbodypart -> concept:athleteinjuredhisbodypart_inv -> concept:persondiedincountry -> concept:sportschoolincountry_inv	1
+concept:persondiedincountry -> concept:hasofficeincountry_inv -> concept:hasofficeincountry -> concept:sportfansincountry_inv	1
+concept:athleteledsportsteam -> concept:teamalsoknownas -> concept:teamplayssport	1
+concept:athletewinsawardtrophytournament -> concept:athletewinsawardtrophytournament_inv -> concept:athletewinsawardtrophytournament -> concept:awardtrophytournamentisthechampionshipgameofthenationalsport -> concept:sportfansincountry -> concept:sportschoolincountry_inv	1
+concept:athletebeatathlete -> concept:athletewinsawardtrophytournament -> concept:awardtrophytournamentisthechampionshipgameofthenationalsport	1
+concept:agentcollaborateswithagent -> concept:teamplaysinleague_inv -> concept:teamplayssport	1
+concept:athletewinsawardtrophytournament -> concept:awardtrophytournamentisthechampionshipgameofthenationalsport -> concept:sportfansincountry -> concept:sportfansincountry_inv	1

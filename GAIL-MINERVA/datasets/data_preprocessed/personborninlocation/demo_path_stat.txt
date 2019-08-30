@@ -1,0 +1,64 @@
+concept:personbornincity	247
+concept:personbornincity -> concept:buildinglocatedincity_inv -> concept:locationlocatedwithinlocation	44
+concept:persongraduatedfromuniversity -> concept:persongraduatedfromuniversity_inv -> concept:personbornincity	8
+concept:persongraduatedfromuniversity -> concept:persongraduatedfromuniversity_inv -> concept:politicianrepresentslocation -> concept:atlocation	8
+concept:personmovedtostateorprovince -> concept:atlocation_inv	7
+concept:personmovedtostateorprovince -> concept:locationlocatedwithinlocation_inv -> concept:atlocation	6
+concept:personbelongstoorganization -> concept:organizationalsoknownas_inv -> concept:agentactsinlocation	4
+concept:personbornincity -> concept:citylocatedincountry -> concept:locationlocatedwithinlocation_inv	3
+concept:personbornincity -> concept:atlocation_inv -> concept:atlocation	3
+concept:personhascitizenship -> concept:locationlocatedwithinlocation_inv -> concept:atlocation	3
+concept:persongraduatedfromuniversity -> concept:proxyfor -> concept:atlocation	3
+concept:personbelongstoorganization -> concept:personbelongstoorganization_inv -> concept:personbornincity	3
+concept:agentcollaborateswithagent_inv -> concept:personbornincity	2
+concept:atlocation -> concept:locationlocatedwithinlocation_inv -> concept:atlocation	2
+concept:personbelongstoorganization -> concept:personbelongstoorganization_inv -> concept:politicianrepresentslocation -> concept:atlocation	2
+concept:personhascitizenship -> concept:atlocation_inv -> concept:atlocation	2
+concept:atlocation -> concept:proxyfor -> concept:atlocation	2
+concept:personbornincity -> concept:agentactsinlocation_inv -> concept:agentactsinlocation	2
+concept:agentcollaborateswithagent -> concept:agentcollaborateswithagent_inv -> concept:personbornincity	2
+concept:personbornincity -> concept:attractionofcity_inv -> concept:locationlocatedwithinlocation_inv -> concept:agentactsinlocation_inv	2
+concept:hassibling -> concept:personbornincity	1
+concept:persondiedatage -> concept:persondiedatage_inv -> concept:personbornincity -> concept:buildinglocatedincity_inv -> concept:locationlocatedwithinlocation	1
+concept:agentactsinlocation -> concept:locationlocatedwithinlocation	1
+concept:agentcollaborateswithagent -> concept:subpartoforganization -> concept:locationlocatedwithinlocation -> concept:locationlocatedwithinlocation_inv -> concept:atlocation	1
+concept:personbornincity -> concept:mutualproxyfor_inv	1
+concept:haswife_inv -> concept:personmovedtostateorprovince -> concept:atlocation_inv	1
+concept:personhascitizenship -> concept:atlocation_inv -> concept:agentactsinlocation	1
+concept:organizationhiredperson_inv -> concept:agentparticipatedinevent -> concept:agentparticipatedinevent_inv -> concept:personbornincity	1
+concept:personbelongstoorganization -> concept:agentcollaborateswithagent_inv -> concept:headquarteredin -> concept:subpartof	1
+concept:organizationterminatedperson_inv -> concept:topmemberoforganization_inv -> concept:personbornincity	1
+concept:persongraduatedfromuniversity -> concept:persongraduatedfromuniversity_inv -> concept:agentparticipatedinevent -> concept:agentparticipatedinevent_inv	1
+concept:parentofperson -> concept:personhasjobposition -> concept:proxyfor -> concept:mutualproxyfor -> concept:atlocation	1
+concept:mutualproxyfor -> concept:locationlocatedwithinlocation_inv -> concept:atlocation	1
+concept:subpartof -> concept:subpartoforganization_inv -> concept:mutualproxyfor -> concept:proxyfor_inv	1
+concept:fatherofperson -> concept:personbelongstoorganization -> concept:personbelongstoorganization_inv -> concept:personbelongstoorganization	1
+concept:persondiedatage -> concept:persondiedatage_inv -> concept:politicianrepresentslocation -> concept:agentactsinlocation_inv	1
+concept:agentbelongstoorganization -> concept:organizationheadquarteredincountry -> concept:locationlocatedwithinlocation_inv	1
+concept:personbelongstoorganization -> concept:atdate -> concept:atdate_inv	1
+concept:personbornincity -> concept:citylocatedingeopoliticallocation -> concept:atlocation_inv	1
+concept:personbornincity -> concept:proxyfor -> concept:locationlocatedwithinlocation_inv -> concept:agentactsinlocation_inv	1
+concept:personbornincity -> concept:agentactsinlocation -> concept:locationlocatedwithinlocation	1
+concept:personbornincity -> concept:attractionofcity_inv -> concept:atlocation	1
+concept:hashusband -> concept:personbornincity	1
+concept:personbornincity -> concept:agentactsinlocation -> concept:atlocation	1
+concept:persondiedatage -> concept:persondiedatage_inv -> concept:personmovedtostateorprovince -> concept:atlocation_inv	1
+concept:personmovedtostateorprovince -> concept:locationlocatedwithinlocation -> concept:locationlocatedwithinlocation_inv	1
+concept:persondiedatage -> concept:persondiedatage_inv -> concept:worksfor -> concept:headquarteredin -> concept:atlocation_inv	1
+concept:personchargedwithcrime -> concept:personchargedwithcrime_inv -> concept:politicianrepresentslocation -> concept:atlocation	1
+concept:atdate -> concept:atdate_inv -> concept:locationlocatedwithinlocation	1
+concept:personmovedtostateorprovince -> concept:atlocation_inv -> concept:atlocation_inv -> concept:atlocation	1
+concept:personmovedtostateorprovince	1
+concept:politicianholdsoffice -> concept:mutualproxyfor_inv -> concept:atlocation	1
+concept:agentactsinlocation -> concept:hasofficeincity_inv -> concept:agentactsinlocation	1
+concept:persongraduatedschool -> concept:persongraduatedfromuniversity_inv -> concept:politicianrepresentslocation -> concept:atlocation	1
+concept:worksfor -> concept:organizationheadquarteredinstateorprovince -> concept:atlocation_inv	1
+concept:persondiedatage -> concept:persondiedatage_inv -> concept:proxyfor -> concept:proxyfor_inv	1
+concept:agentparticipatedinevent -> concept:agentparticipatedinevent_inv -> concept:subpartof_inv	1
+concept:agentcontrols -> concept:agentcontrols_inv -> concept:politicianrepresentslocation -> concept:locationlocatedwithinlocation_inv	1
+concept:agentbelongstoorganization -> concept:organizationheadquarteredincountry -> concept:citylocatedincountry_inv	1
+concept:agentcontrols -> concept:agentcontrols_inv	1
+concept:personbelongstoorganization -> concept:organizationheadquarteredinstateorprovince -> concept:atlocation_inv	1
+concept:personhascitizenship -> concept:personhascitizenship_inv -> concept:personbornincity	1
+concept:personbelongstoorganization -> concept:agentactsinlocation -> concept:atlocation_inv	1
+concept:agentparticipatedinevent -> concept:agentparticipatedinevent_inv -> concept:atlocation_inv	1

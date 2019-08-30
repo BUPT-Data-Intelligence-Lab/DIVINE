@@ -1,0 +1,67 @@
+concept:teamhomestadium -> concept:sportusesstadium_inv
+concept:teamwontrophy -> concept:awardtrophytournamentisthechampionshipgameofthenationalsport
+concept:teamplaysinleague -> concept:athleteplaysinleague_inv -> concept:athleteplayssport
+concept:teamalsoknownas_inv -> concept:personbelongstoorganization_inv -> concept:personhascitizenship -> concept:sportfansincountry_inv
+concept:teamplaysincity -> concept:stadiumlocatedincity_inv -> concept:sportusesstadium_inv
+concept:teamplaysagainstteam -> concept:teamwontrophy -> concept:awardtrophytournamentisthechampionshipgameofthenationalsport
+concept:athleteplaysforteam_inv -> concept:athleteplayssport
+concept:teamplaysagainstteam -> concept:teamhomestadium -> concept:sportusesstadium_inv
+concept:teamplaysagainstteam_inv -> concept:athleteplaysforteam_inv -> concept:athleteplayssport
+concept:agentcontrols_inv -> concept:agentcompeteswithagent -> concept:hasofficeincountry -> concept:sportfansincountry_inv
+concept:teamplaysincity -> concept:citylocatedincountry -> concept:sportfansincountry_inv
+concept:agentcollaborateswithagent -> concept:athleteplayssport
+concept:organizationhiredperson -> concept:athleteplayssport
+concept:teamplaysinleague -> concept:teamplaysinleague_inv -> concept:atlocation -> concept:stadiumlocatedincity_inv -> concept:sportusesstadium_inv
+concept:teamplaysagainstteam_inv -> concept:teamhomestadium -> concept:sportusesstadium_inv
+concept:teamplaysagainstteam_inv -> concept:teamplaysincity -> concept:citylocatedincountry -> concept:sportfansincountry_inv
+concept:sportsgameteam_inv -> concept:agentparticipatedinevent_inv -> concept:sportfansincountry_inv
+concept:athleteledsportsteam_inv -> concept:athleteplayssport
+concept:teamplaysincity -> concept:mutualproxyfor_inv -> concept:locationlocatedwithinlocation_inv -> concept:locationlocatedwithinlocation -> concept:sportfansincountry_inv
+concept:subpartoforganization -> concept:athleteplaysinleague_inv -> concept:athleteplayssport
+concept:teamplaysagainstteam -> concept:teamplaysagainstteam_inv -> concept:teamwontrophy -> concept:awardtrophytournamentisthechampionshipgameofthenationalsport
+concept:teamplaysagainstteam_inv -> concept:teamwontrophy -> concept:awardtrophytournamentisthechampionshipgameofthenationalsport
+concept:sportsgameteam_inv -> concept:sportsgameteam -> concept:teamwontrophy -> concept:awardtrophytournamentisthechampionshipgameofthenationalsport
+concept:organizationalsoknownas -> concept:personbelongstoorganization_inv -> concept:personhascitizenship -> concept:sportfansincountry_inv
+concept:teamplaysagainstteam -> concept:athleteplaysforteam_inv -> concept:athleteplayssport
+concept:personbelongstoorganization_inv -> concept:personhascitizenship -> concept:sportfansincountry_inv
+concept:teamplaysinleague -> concept:teamplaysinleague_inv -> concept:teamplaysincity -> concept:citylocatedincountry -> concept:sportfansincountry_inv
+concept:teamwontrophy -> concept:coachwontrophy_inv -> concept:athleteplayssport
+concept:atlocation -> concept:statelocatedincountry -> concept:sportfansincountry_inv
+concept:organizationalsoknownas -> concept:personbelongstoorganization_inv -> concept:athleteplayssport
+concept:teamplaysincity -> concept:mutualproxyfor_inv -> concept:atdate -> concept:atdate_inv -> concept:sportfansincountry_inv
+concept:sportsgameteam_inv -> concept:sportsgameteam -> concept:teamhomestadium -> concept:sportusesstadium_inv
+concept:agentactsinlocation -> concept:locationlocatedwithinlocation_inv -> concept:locationlocatedwithinlocation -> concept:sportfansincountry_inv
+concept:teamplaysincity -> concept:proxyfor -> concept:hasofficeincountry -> concept:sportfansincountry_inv
+concept:organizationhiredperson -> concept:persondiedincountry -> concept:sportfansincountry_inv
+concept:teamplaysagainstteam -> concept:teamplaysagainstteam -> concept:teamwontrophy -> concept:awardtrophytournamentisthechampionshipgameofthenationalsport
+concept:teamplaysinleague -> concept:agentbelongstoorganization_inv -> concept:sportfansincountry_inv
+concept:agentbelongstoorganization -> concept:athleteplaysinleague_inv -> concept:athleteplayssport
+concept:teamalsoknownas_inv -> concept:personbelongstoorganization_inv -> concept:athleteplayssport -> concept:sportusesequipment -> concept:sportusesequipment_inv
+concept:teamplaysincity -> concept:proxyfor -> concept:sportfansincountry_inv
+concept:teamplaysinleague -> concept:teamplaysinleague_inv -> concept:personbelongstoorganization_inv -> concept:athleteplayssport
+concept:subpartoforganization -> concept:subpartoforganization_inv -> concept:mutualproxyfor -> concept:proxyfor_inv
+concept:teamplaysinleague -> concept:teamplaysinleague_inv -> concept:proxyfor -> concept:proxyfor_inv -> concept:sportfansincountry_inv
+concept:teamplaysincity -> concept:mutualproxyfor_inv -> concept:statelocatedincountry -> concept:sportfansincountry_inv
+concept:teamplaysincity -> concept:mutualproxyfor_inv -> concept:personmovedtostateorprovince_inv -> concept:athleteplayssport
+concept:subpartoforganization_inv -> concept:hasofficeincountry -> concept:sportfansincountry_inv
+concept:mutualproxyfor_inv -> concept:atlocation -> concept:sportfansincountry_inv
+concept:teamalsoknownas_inv -> concept:athleteledsportsteam_inv -> concept:athleteplayssport
+concept:teamplaysagainstteam_inv -> concept:teamalsoknownas -> concept:personbelongstoorganization_inv -> concept:athleteplayssport
+concept:teamplaysagainstteam -> concept:teamplaysagainstteam_inv -> concept:coachesteam_inv -> concept:athleteplayssport
+concept:agentcontrols_inv -> concept:agentcompeteswithagent -> concept:proxyfor -> concept:proxyfor_inv
+concept:agentactsinlocation -> concept:statelocatedincountry -> concept:sportfansincountry_inv
+concept:organizationheadquarteredinstateorprovince -> concept:statelocatedincountry -> concept:countryalsoknownas_inv -> concept:sportfansincountry_inv
+concept:teamalsoknownas -> concept:personbelongstoorganization_inv -> concept:personhascitizenship -> concept:sportfansincountry_inv
+concept:organizationalsoknownas -> concept:subpartoforganization_inv -> concept:countrylocatedingeopoliticallocation_inv -> concept:sportfansincountry_inv
+concept:teamplaysagainstteam_inv -> concept:teamplaysagainstteam -> concept:athleteledsportsteam_inv -> concept:athleteplayssport
+concept:teamplaysincity -> concept:hasofficeincity_inv -> concept:hasofficeincountry -> concept:sportfansincountry_inv
+concept:sportsgameteam_inv -> concept:sportsgamewinner -> concept:teamhomestadium -> concept:sportusesstadium_inv
+concept:teamplaysincity -> concept:atlocation -> concept:subpartof_inv -> concept:athleteplayssportsteamposition -> concept:sporthassportsteamposition_inv
+concept:teamplaysagainstteam -> concept:teamplaysagainstteam_inv -> concept:organizationhiredperson -> concept:athleteplayssport
+concept:sportsgameteam_inv -> concept:atdate -> concept:atdate_inv -> concept:sportfansincountry_inv
+concept:organizationhiredperson -> concept:athleteplayssportsteamposition -> concept:sporthassportsteamposition_inv
+concept:atdate -> concept:atdate_inv -> concept:sportfansincountry_inv
+concept:teamplaysagainstteam -> concept:teamplaysincity -> concept:citylocatedincountry -> concept:sportfansincountry_inv
+concept:coachesteam_inv -> concept:athleteplayssport
+concept:agentcompeteswithagent_inv -> concept:subpartoforganization_inv -> concept:hasofficeincountry -> concept:sportfansincountry_inv
+concept:teamplaysincity -> concept:hasofficeincity_inv -> concept:agentactsinlocation -> concept:sportfansincountry_inv

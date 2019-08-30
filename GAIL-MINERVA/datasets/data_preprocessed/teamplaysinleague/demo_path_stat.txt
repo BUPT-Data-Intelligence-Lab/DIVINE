@@ -1,0 +1,91 @@
+concept:subpartoforganization -> concept:agentactsinlocation -> concept:leaguestadiums_inv	487
+concept:teamhomestadium -> concept:leaguestadiums_inv	28
+concept:teamplaysagainstteam_inv -> concept:subpartoforganization_inv	19
+concept:teamplaysagainstteam -> concept:agentcontrols_inv	12
+concept:teamalsoknownas_inv -> concept:personbelongstoorganization_inv -> concept:agentparticipatedinevent -> concept:agentparticipatedinevent_inv -> concept:subpartof_inv -> concept:agentbelongstoorganization	11
+concept:teamplaysagainstteam_inv -> concept:subpartoforganization	10
+concept:agentcompeteswithagent_inv -> concept:agentactsinlocation -> concept:leaguestadiums_inv	9
+concept:teamplayssport -> concept:athleteplayssport_inv -> concept:athleteplaysinleague	6
+concept:teamplayssport -> concept:teamplayssport_inv -> concept:agentbelongstoorganization	6
+concept:teamplaysagainstteam -> concept:teamplaysagainstteam -> concept:subpartoforganization	5
+concept:teamplaysincity -> concept:locationlocatedwithinlocation_inv -> concept:locationlocatedwithinlocation -> concept:subpartof_inv -> concept:agentbelongstoorganization	5
+concept:organizationheadquarteredinstateorprovince -> concept:organizationheadquarteredinstateorprovince_inv -> concept:organizationacronymhasname_inv	5
+concept:organizationhiredperson -> concept:coachesinleague	5
+concept:teamplaysincity -> concept:agentactsinlocation -> concept:locationlocatedwithinlocation -> concept:subpartof_inv -> concept:agentbelongstoorganization	5
+concept:teamplaysagainstteam -> concept:subpartoforganization	5
+concept:agentcontrols_inv -> concept:agentcontrols -> concept:teamhomestadium -> concept:leaguestadiums_inv	5
+concept:teamplaysagainstteam -> concept:agentcontrols	4
+concept:teamplaysincity -> concept:locationlocatedwithinlocation -> concept:subpartof_inv -> concept:agentbelongstoorganization	4
+concept:teamplaysincity -> concept:proxyfor -> concept:locationlocatedwithinlocation -> concept:subpartof_inv -> concept:agentbelongstoorganization	4
+concept:teamplaysincity -> concept:statelocatedingeopoliticallocation_inv -> concept:statelocatedingeopoliticallocation -> concept:subpartof_inv -> concept:agentbelongstoorganization	4
+concept:teamplaysagainstteam_inv -> concept:teamplaysagainstteam_inv -> concept:subpartoforganization	4
+concept:agentcollaborateswithagent -> concept:athleteplaysinleague	4
+concept:teamplaysagainstteam -> concept:teamplaysagainstteam_inv -> concept:subpartoforganization	3
+concept:agentcollaborateswithagent_inv	3
+concept:athleteplaysforteam_inv -> concept:athleteplaysinleague	3
+concept:teamplaysagainstteam_inv -> concept:teamplayssport -> concept:sportfansincountry -> concept:agentbelongstoorganization	3
+concept:teamwontrophy -> concept:coachwontrophy_inv -> concept:coachesinleague	3
+concept:teamplaysagainstteam_inv -> concept:organizationhiredperson -> concept:coachesinleague	3
+concept:teamplayssport -> concept:teamplayssport_inv -> concept:agentcompeteswithagent -> concept:locationlocatedwithinlocation -> concept:subpartof_inv -> concept:agentbelongstoorganization	3
+concept:teamplaysincity -> concept:cityalsoknownas -> concept:proxyfor -> concept:locationlocatedwithinlocation -> concept:subpartof_inv -> concept:agentbelongstoorganization	2
+concept:agentcompeteswithagent_inv -> concept:agentbelongstoorganization	2
+concept:agentcompeteswithagent_inv -> concept:subpartoforganization	2
+concept:teamplaysincity -> concept:hasofficeincity_inv -> concept:agentactsinlocation -> concept:locationlocatedwithinlocation -> concept:subpartof_inv -> concept:agentbelongstoorganization	2
+concept:teamplaysagainstteam_inv -> concept:agentcompeteswithagent_inv -> concept:agentbelongstoorganization	2
+concept:teamplaysagainstteam_inv -> concept:agentcollaborateswithagent_inv	2
+concept:athleteledsportsteam_inv -> concept:athleteplaysinleague	2
+concept:subpartoforganization_inv	2
+concept:teamplaysagainstteam -> concept:teamhomestadium -> concept:leaguestadiums_inv	2
+concept:teamwontrophy -> concept:teamwontrophy_inv -> concept:subpartoforganization	2
+concept:agentbelongstoorganization -> concept:agentactsinlocation -> concept:leaguestadiums_inv	2
+concept:agentcompeteswithagent -> concept:agentbelongstoorganization	1
+concept:teamplaysagainstteam -> concept:agentcollaborateswithagent_inv	1
+concept:teamalsoknownas -> concept:teamalsoknownas_inv -> concept:teamhomestadium -> concept:leaguestadiums_inv	1
+concept:teamplayssport -> concept:teamplayssport_inv -> concept:agentcollaborateswithagent_inv	1
+concept:organizationhiredperson -> concept:personbelongstoorganization	1
+concept:worksfor_inv -> concept:organizationhiredperson_inv	1
+concept:teamplaysagainstteam_inv -> concept:teamhomestadium -> concept:leaguestadiums_inv	1
+concept:teamplaysagainstteam -> concept:agentcompeteswithagent -> concept:subpartoforganization	1
+concept:teamplaysagainstteam -> concept:subpartoforganization_inv	1
+concept:teamplaysagainstteam -> concept:organizationheadquarteredinstateorprovince -> concept:atlocation_inv -> concept:agentbelongstoorganization	1
+concept:personbelongstoorganization_inv -> concept:agentcollaborateswithagent	1
+concept:subpartof_inv -> concept:subpartof -> concept:locationlocatedwithinlocation -> concept:subpartof_inv -> concept:agentbelongstoorganization	1
+concept:teamplaysagainstteam_inv -> concept:agentcontrols_inv	1
+concept:teamplayssport -> concept:sportfansincountry -> concept:agentbelongstoorganization	1
+concept:atlocation -> concept:hasofficeincity_inv -> concept:agentactsinlocation -> concept:locationlocatedwithinlocation -> concept:subpartof_inv -> concept:agentbelongstoorganization	1
+concept:teamplaysagainstteam_inv -> concept:teamplaysagainstteam -> concept:agentcontrols_inv	1
+concept:agentcollaborateswithagent -> concept:agentcontrols -> concept:teamhomestadium -> concept:leaguestadiums_inv	1
+concept:teamhomestadium -> concept:athletehomestadium_inv -> concept:athleteplaysinleague	1
+concept:teamplaysagainstteam_inv -> concept:teamplaysagainstteam -> concept:teamplaysagainstteam -> concept:subpartoforganization	1
+concept:teamplaysincity -> concept:mutualproxyfor_inv -> concept:locationlocatedwithinlocation_inv -> concept:locationlocatedwithinlocation -> concept:subpartof_inv -> concept:agentbelongstoorganization	1
+concept:teamalsoknownas -> concept:teamalsoknownas_inv -> concept:personbelongstoorganization_inv -> concept:agentparticipatedinevent -> concept:agentparticipatedinevent_inv -> concept:subpartof_inv -> concept:agentbelongstoorganization	1
+concept:teamplayssport -> concept:teamplayssport_inv -> concept:teamplaysincity -> concept:locationlocatedwithinlocation -> concept:subpartof_inv -> concept:agentbelongstoorganization	1
+concept:athleteplaysforteam_inv -> concept:agentbelongstoorganization	1
+concept:teamplaysincity -> concept:atlocation -> concept:statelocatedingeopoliticallocation_inv -> concept:statelocatedingeopoliticallocation -> concept:subpartof_inv -> concept:agentbelongstoorganization	1
+concept:organizationheadquarteredinstateorprovince -> concept:organizationheadquarteredinstateorprovince_inv -> concept:subpartoforganization	1
+concept:teamplaysagainstteam_inv -> concept:teamplayssport -> concept:teamplayssport_inv -> concept:subpartoforganization	1
+concept:subpartoforganization -> concept:subpartof_inv -> concept:agentbelongstoorganization	1
+concept:organizationalsoknownas -> concept:teamalsoknownas_inv -> concept:teamhomestadium -> concept:leaguestadiums_inv	1
+concept:teamplaysagainstteam -> concept:agentcompeteswithagent_inv -> concept:agentcompeteswithagent -> concept:locationlocatedwithinlocation -> concept:subpartof_inv -> concept:agentbelongstoorganization	1
+concept:agentcontrols -> concept:hasspouse -> concept:personbelongstoorganization -> concept:competeswith_inv -> concept:agentactsinlocation -> concept:locationlocatedwithinlocation -> concept:subpartof_inv -> concept:agentbelongstoorganization	1
+concept:teamplayssport -> concept:teamplayssport_inv -> concept:agentparticipatedinevent -> concept:agentparticipatedinevent_inv -> concept:subpartof_inv -> concept:agentbelongstoorganization	1
+concept:organizationalsoknownas_inv -> concept:teamalsoknownas -> concept:athleteplaysforteam_inv -> concept:athleteplaysinleague	1
+concept:subpartoforganization_inv -> concept:subpartoforganization -> concept:agentbelongstoorganization_inv -> concept:agentbelongstoorganization	1
+concept:teamplaysagainstteam -> concept:subpartoforganization -> concept:agentactsinlocation -> concept:leaguestadiums_inv	1
+concept:teamplaysagainstteam_inv -> concept:agentcompeteswithagent_inv -> concept:subpartoforganization	1
+concept:agentcompeteswithagent_inv -> concept:agentcompeteswithagent -> concept:locationlocatedwithinlocation -> concept:subpartof_inv -> concept:agentbelongstoorganization	1
+concept:agentcontrols	1
+concept:teamplaysincity -> concept:cityalsoknownas -> concept:statelocatedingeopoliticallocation_inv -> concept:statelocatedingeopoliticallocation -> concept:subpartof_inv -> concept:agentbelongstoorganization	1
+concept:teamplaysincity -> concept:citylocatedingeopoliticallocation -> concept:locationlocatedwithinlocation -> concept:subpartof_inv -> concept:agentbelongstoorganization	1
+concept:teamplaysagainstteam_inv -> concept:agentcompeteswithagent -> concept:subpartoforganization	1
+concept:organizationalsoknownas -> concept:personbelongstoorganization_inv -> concept:athleteplaysinleague	1
+concept:athleteledsportsteam_inv -> concept:agentbelongstoorganization	1
+concept:teamplaysincity -> concept:citylocatedinstate -> concept:locationlocatedwithinlocation_inv -> concept:locationlocatedwithinlocation -> concept:proxyfor -> concept:leaguestadiums_inv	1
+concept:teamalsoknownas_inv -> concept:agentcollaborateswithagent_inv	1
+concept:teamplaysagainstteam -> concept:athleteledsportsteam_inv -> concept:athleteplaysinleague	1
+concept:teamalsoknownas -> concept:subpartoforganization	1
+concept:teamplayssport -> concept:teamplayssport_inv -> concept:teamplaysagainstteam -> concept:teamhomestadium -> concept:leaguestadiums_inv	1
+concept:personbelongstoorganization_inv -> concept:agentparticipatedinevent -> concept:agentparticipatedinevent_inv -> concept:subpartof_inv -> concept:agentbelongstoorganization	1
+concept:organizationhiredperson -> concept:athleteplaysinleague	1
+concept:teamplaysincity -> concept:atdate -> concept:atdate_inv -> concept:agentactsinlocation_inv -> concept:subpartof_inv -> concept:agentbelongstoorganization	1
+concept:teamplaysagainstteam -> concept:organizationhiredperson -> concept:coachesinleague	1

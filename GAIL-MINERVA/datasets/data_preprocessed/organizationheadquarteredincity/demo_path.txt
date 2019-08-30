@@ -1,0 +1,66 @@
+concept:headquarteredin
+concept:televisionstationincity
+concept:radiostationincity
+concept:hasofficeincity
+concept:atdate -> concept:atdate_inv
+concept:organizationheadquarteredinstateorprovince -> concept:citylocatedinstate_inv
+concept:subpartoforganization -> concept:hasofficeincity -> concept:hasofficeincity_inv -> concept:hasofficeincity
+concept:competeswith_inv -> concept:agentactsinlocation -> concept:agentactsinlocation_inv
+concept:subpartof -> concept:subpartof_inv -> concept:hasofficeincity -> concept:hasofficeincity_inv -> concept:hasofficeincity
+concept:organizationhiredperson -> concept:organizationhiredperson_inv -> concept:headquarteredin
+concept:companyeconomicsector -> concept:companyeconomicsector_inv -> concept:headquarteredin
+concept:agentcompeteswithagent_inv
+concept:agentcontrols_inv -> concept:hasofficeincity -> concept:hasofficeincity_inv -> concept:hasofficeincity
+concept:competeswith_inv -> concept:hasofficeincity
+concept:hasofficeincity -> concept:hasofficeincity_inv -> concept:hasofficeincity
+concept:competeswith_inv -> concept:headquarteredin
+concept:televisionstationincity -> concept:atlocation_inv -> concept:atlocation
+concept:televisionstationaffiliatedwith -> concept:hasofficeincity -> concept:hasofficeincity_inv -> concept:hasofficeincity
+concept:subpartoforganization -> concept:hasofficeincity -> concept:automobilemakerdealersincity_inv -> concept:automobilemakerdealersincity
+concept:subpartof -> concept:atdate -> concept:atdate_inv -> concept:citylocatedinstate_inv
+concept:mutualproxyfor -> concept:personleadsgeopoliticalorganization -> concept:agentactsinlocation
+concept:agentactsinlocation -> concept:locationlocatedwithinlocation -> concept:citylocatedinstate_inv
+concept:locationlocatedwithinlocation_inv -> concept:locationlocatedwithinlocation
+concept:agentcollaborateswithagent -> concept:hasofficeincity -> concept:atlocation -> concept:mutualproxyfor
+concept:subpartoforganization_inv -> concept:acquired_inv -> concept:headquarteredin
+concept:companyeconomicsector -> concept:academicprogramatuniversity -> concept:persongraduatedfromuniversity_inv -> concept:personmovedtostateorprovince -> concept:atlocation_inv
+concept:agentactsinlocation -> concept:proxyfor -> concept:istallerthan -> concept:istallerthan_inv
+concept:agentcontrols_inv -> concept:competeswith_inv -> concept:hasofficeincity
+concept:agentcompeteswithagent -> concept:hasofficeincity
+concept:atlocation -> concept:statelocatedingeopoliticallocation_inv -> concept:statelocatedingeopoliticallocation
+concept:companyeconomicsector -> concept:academicprogramatuniversity -> concept:persongraduatedfromuniversity_inv -> concept:personbornincity
+concept:mutualproxyfor -> concept:mutualproxyfor_inv -> concept:hasofficeincity
+concept:hasofficeincity -> concept:locationlocatedwithinlocation -> concept:statelocatedingeopoliticallocation_inv -> concept:citylocatedinstate_inv
+concept:companyeconomicsector -> concept:companyeconomicsector_inv -> concept:hasofficeincity
+concept:subpartof -> concept:subpartof_inv -> concept:agentcontrols_inv -> concept:subpartoforganization_inv -> concept:televisionstationincity
+concept:subpartoforganization_inv -> concept:agentbelongstoorganization -> concept:headquarteredin
+concept:agentcontrols_inv -> concept:agentcontrols -> concept:televisionstationincity -> concept:hasofficeincity_inv -> concept:hasofficeincity
+concept:subpartoforganization -> concept:organizationheadquarteredincountry -> concept:atlocation_inv -> concept:citylocatedingeopoliticallocation_inv
+concept:agentbelongstoorganization -> concept:hasofficeincity -> concept:hasofficeincity_inv -> concept:hasofficeincity
+concept:organizationheadquarteredincountry -> concept:locationlocatedwithinlocation_inv
+concept:atdate -> concept:atdate_inv -> concept:atlocation
+concept:locationlocatedwithinlocation_inv -> concept:agentactsinlocation -> concept:locationlocatedwithinlocation
+concept:competeswith_inv -> concept:competeswith -> concept:newspaperincity
+concept:competeswith -> concept:competeswith -> concept:hasofficeincity
+concept:agentcontrols -> concept:agentcollaborateswithagent_inv -> concept:mutualproxyfor -> concept:mutualproxyfor_inv
+concept:companyalsoknownas_inv -> concept:hasofficeincity
+concept:radiostationincity -> concept:locationlocatedwithinlocation_inv
+concept:worksfor_inv -> concept:agentcollaborateswithagent_inv -> concept:subpartoforganization_inv -> concept:agentcontrols_inv -> concept:headquarteredin
+concept:agentparticipatedinevent -> concept:agentparticipatedinevent_inv -> concept:locationlocatedwithinlocation_inv -> concept:mutualproxyfor
+concept:subpartoforganization_inv -> concept:agentcontrols_inv -> concept:headquarteredin
+concept:televisionstationaffiliatedwith -> concept:subpartoforganization_inv -> concept:televisionstationincity -> concept:hasofficeincity_inv -> concept:hasofficeincity
+concept:radiostationincity -> concept:cityalsoknownas_inv
+concept:locationlocatedwithinlocation_inv -> concept:agentactsinlocation_inv
+concept:acquired -> concept:hasofficeincity -> concept:locationlocatedwithinlocation_inv
+concept:subpartoforganization -> concept:acquired -> concept:headquarteredin
+concept:agentcompeteswithagent -> concept:headquarteredin
+concept:organizationacronymhasname -> concept:organizationheadquarteredincountry -> concept:citylocatedingeopoliticallocation_inv
+concept:companyalsoknownas_inv -> concept:headquarteredin
+concept:acquired -> concept:hasofficeincity -> concept:hasofficeincity_inv -> concept:hasofficeincity
+concept:organizationhiredperson -> concept:organizationhiredperson_inv -> concept:citylocatedincountry_inv
+concept:televisionstationaffiliatedwith -> concept:televisionstationaffiliatedwith_inv -> concept:subpartoforganization -> concept:hasofficeincity -> concept:atlocation_inv
+concept:hasofficeincity_inv -> concept:competeswith -> concept:hasofficeincity
+concept:agentcollaborateswithagent -> concept:subpartoforganization_inv -> concept:hasofficeincity -> concept:hasofficeincity_inv -> concept:hasofficeincity
+concept:subpartoforganization -> concept:subpartoforganization_inv -> concept:televisionstationincity -> concept:hasofficeincity_inv -> concept:agentactsinlocation
+concept:agentactsinlocation -> concept:cityalsoknownas
+concept:agentbelongstoorganization -> concept:agentbelongstoorganization_inv -> concept:televisionstationincity -> concept:hasofficeincity_inv -> concept:hasofficeincity

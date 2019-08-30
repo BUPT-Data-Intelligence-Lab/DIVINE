@@ -1,0 +1,33 @@
+concept:athleteflyouttosportsteamposition -> concept:athleteflyouttosportsteamposition_inv -> concept:coachesinleague	246
+concept:athleteledsportsteam -> concept:teamplaysinleague	145
+concept:athletehomestadium -> concept:leaguestadiums_inv	140
+concept:athleteplaysforteam -> concept:teamplaysinleague	139
+concept:athleteplayssport -> concept:teamplayssport_inv -> concept:teamplaysinleague	67
+concept:athleteplayssport -> concept:teamplayssport_inv -> concept:subpartoforganization	14
+concept:coachesinleague	13
+concept:athleteplayssport -> concept:athleteplayssport_inv -> concept:coachesinleague	6
+concept:athletehomestadium -> concept:leaguestadiums_inv -> concept:organizationacronymhasname	6
+concept:persondiedincountry -> concept:persondiedincountry_inv -> concept:personbelongstoorganization	5
+concept:agentcollaborateswithagent_inv -> concept:teamplaysinleague	5
+concept:athleteflyouttosportsteamposition -> concept:athleteflyouttosportsteamposition_inv -> concept:personbelongstoorganization	4
+concept:athletehomestadium -> concept:agentactsinlocation_inv	4
+concept:athleteplaysforteam -> concept:agentcontrols_inv	3
+concept:athleteledsportsteam -> concept:teamplaysinleague -> concept:organizationacronymhasname	3
+concept:athleteledsportsteam -> concept:agentcontrols_inv	2
+concept:personbelongstoorganization	2
+concept:organizationhiredperson_inv -> concept:teamplaysinleague	2
+concept:athleteledsportsteam -> concept:teamplaysagainstteam_inv -> concept:teamplaysinleague	2
+concept:athleteplayssport -> concept:teamplayssport_inv -> concept:teamplaysagainstteam -> concept:teamplaysinleague	1
+concept:athleteplaysforteam -> concept:proxyfor -> concept:proxyfor_inv	1
+concept:personalsoknownas_inv -> concept:athleteledsportsteam -> concept:teamplaysinleague	1
+concept:organizationhiredperson_inv -> concept:stadiumlocatedincity_inv -> concept:leaguestadiums_inv	1
+concept:athletewinsawardtrophytournament -> concept:athletewinsawardtrophytournament_inv -> concept:athletebeatathlete -> concept:athleteplaysforteam -> concept:teamplaysinleague	1
+concept:personbelongstoorganization -> concept:subpartoforganization	1
+concept:athleteledsportsteam -> concept:teamplaysagainstteam_inv -> concept:subpartoforganization	1
+concept:athleteplaysforteam -> concept:teamplaysagainstteam_inv -> concept:teamplaysinleague	1
+concept:athleteplaysforteam -> concept:teamplaysinleague -> concept:organizationacronymhasname	1
+concept:agentcontrols_inv -> concept:teamplaysinleague	1
+concept:coachwontrophy -> concept:coachwontrophy_inv -> concept:coachesinleague	1
+concept:athleteplaysforteam -> concept:subpartoforganization	1
+concept:athleteplaysforteam -> concept:teamplaysagainstteam_inv -> concept:subpartoforganization	1
+concept:athleteledsportsteam -> concept:teamplaysagainstteam -> concept:teamplaysinleague	1

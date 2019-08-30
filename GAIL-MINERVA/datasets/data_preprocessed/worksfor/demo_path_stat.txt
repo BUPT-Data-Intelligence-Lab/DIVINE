@@ -1,0 +1,130 @@
+concept:organizationhiredperson_inv	364
+concept:personleadsorganization	172
+concept:agentcollaborateswithagent_inv	70
+concept:journalistwritesforpublication	55
+concept:journalistwritesforpublication -> concept:competeswith_inv -> concept:agentcompeteswithagent	34
+concept:mutualproxyfor_inv	27
+concept:topmemberoforganization	20
+concept:ceoof	13
+concept:organizationterminatedperson_inv	11
+concept:journalistwritesforpublication -> concept:competeswith_inv -> concept:competeswith	8
+concept:journalistwritesforpublication -> concept:journalistwritesforpublication_inv -> concept:agentbelongstoorganization	7
+concept:journalistwritesforpublication -> concept:agentcompeteswithagent_inv	7
+concept:personbelongstoorganization -> concept:agentcollaborateswithagent -> concept:agentbelongstoorganization	6
+concept:personhasresidenceingeopoliticallocation	5
+concept:personleadsgeopoliticalorganization	5
+concept:coachesteam	5
+concept:organizationhiredperson_inv -> concept:subpartoforganization -> concept:agentcompeteswithagent	4
+concept:agentcollaborateswithagent_inv -> concept:agentbelongstoorganization_inv -> concept:agentbelongstoorganization	4
+concept:agentbelongstoorganization -> concept:organizationhiredperson -> concept:organizationhiredperson_inv	4
+concept:organizationhiredperson_inv -> concept:organizationhiredperson -> concept:organizationhiredperson_inv	4
+concept:journalistwritesforpublication -> concept:journalistwritesforpublication_inv -> concept:personbelongstoorganization	3
+concept:organizationhiredperson_inv -> concept:teamplaysagainstteam_inv	3
+concept:agentcontrols	3
+concept:agentbelongstoorganization -> concept:agentactsinlocation -> concept:headquarteredin_inv	2
+concept:athleteledsportsteam	2
+concept:agentcollaborateswithagent_inv -> concept:agentinvolvedwithitem -> concept:agentinvolvedwithitem_inv	2
+concept:journalistwritesforpublication -> concept:headquarteredin	2
+concept:organizationhiredperson_inv -> concept:mutualproxyfor_inv -> concept:atlocation	2
+concept:personleadsorganization -> concept:acquired -> concept:subpartoforganization	2
+concept:agentcontrols -> concept:agentcontrols_inv -> concept:agentcollaborateswithagent	2
+concept:organizationhiredperson_inv -> concept:mutualproxyfor -> concept:proxyfor	2
+concept:personbelongstoorganization -> concept:agentbelongstoorganization_inv -> concept:agentbelongstoorganization	2
+concept:agentcollaborateswithagent_inv -> concept:agentcollaborateswithagent -> concept:personbelongstoorganization	2
+concept:agentcontributedtocreativework -> concept:bookwriter -> concept:journalistwritesforpublication	2
+concept:agentcontrols_inv -> concept:organizationterminatedperson -> concept:personleadsorganization	2
+concept:agentparticipatedinevent -> concept:agentparticipatedinevent_inv	2
+concept:agentbelongstoorganization -> concept:agentactsinlocation -> concept:agentcompeteswithagent	2
+concept:organizationhiredperson_inv -> concept:mutualproxyfor -> concept:personleadsorganization	2
+concept:organizationhiredperson_inv -> concept:atlocation_inv -> concept:proxyfor_inv	2
+concept:personbelongstoorganization -> concept:agentcompeteswithagent -> concept:agentcompeteswithagent_inv -> concept:competeswith	1
+concept:agentbelongstoorganization -> concept:locationlocatedwithinlocation_inv -> concept:headquarteredin_inv	1
+concept:personhasjobposition -> concept:personhasjobposition_inv -> concept:personhasjobposition -> concept:atdate -> concept:atdate_inv -> concept:agentactsinlocation_inv	1
+concept:personborninlocation -> concept:agentactsinlocation -> concept:locationlocatedwithinlocation	1
+concept:journalistwritesforpublication -> concept:competeswith_inv -> concept:competeswith -> concept:agentcontrols	1
+concept:organizationhiredperson_inv -> concept:agentcompeteswithagent	1
+concept:organizationhiredperson_inv -> concept:atlocation -> concept:proxyfor_inv	1
+concept:personborninlocation -> concept:personbornincity_inv -> concept:persongraduatedfromuniversity -> concept:persongraduatedfromuniversity_inv -> concept:personbelongstoorganization	1
+concept:agentcollaborateswithagent_inv -> concept:persongraduatedfromuniversity -> concept:organizationalsoknownas -> concept:mutualproxyfor	1
+concept:journalistwritesforpublication -> concept:ceoof_inv -> concept:organizationterminatedperson_inv	1
+concept:agentcontrols_inv -> concept:atdate -> concept:atdate_inv -> concept:companyeconomicsector -> concept:companyeconomicsector_inv	1
+concept:organizationterminatedperson_inv -> concept:personleadsorganization_inv -> concept:personleadsorganization -> concept:hasofficeincity -> concept:cityalsoknownas	1
+concept:personleadsorganization -> concept:agentbelongstoorganization_inv -> concept:agentactsinlocation -> concept:hasofficeincity_inv	1
+concept:organizationhiredperson_inv -> concept:organizationheadquarteredincountry_inv	1
+concept:agentcontrols_inv -> concept:agentcollaborateswithagent -> concept:ceoof	1
+concept:agentcollaborateswithagent_inv -> concept:acquired_inv	1
+concept:personbelongstoorganization -> concept:competeswith_inv -> concept:agentactsinlocation -> concept:locationlocatedwithinlocation	1
+concept:personbelongstoorganization -> concept:competeswith -> concept:competeswith_inv -> concept:competeswith	1
+concept:agentcollaborateswithagent_inv -> concept:agentcompeteswithagent_inv -> concept:competeswith	1
+concept:personleadsorganization -> concept:organizationterminatedperson -> concept:organizationterminatedperson_inv	1
+concept:subpartof_inv	1
+concept:organizationterminatedperson_inv -> concept:acquired -> concept:subpartoforganization	1
+concept:agentcontrols_inv -> concept:companyalsoknownas	1
+concept:personbelongstoorganization -> concept:organizationalsoknownas_inv -> concept:competeswith	1
+concept:agentcollaborateswithagent_inv -> concept:agentcompeteswithagent -> concept:agentcontrols -> concept:agentcompeteswithagent_inv	1
+concept:personbelongstoorganization -> concept:organizationalsoknownas -> concept:companyalsoknownas	1
+concept:atlocation -> concept:stadiumlocatedincity_inv -> concept:proxyfor_inv	1
+concept:hasspouse -> concept:personbornincity -> concept:agentactsinlocation -> concept:agentactsinlocation_inv	1
+concept:personleadsorganization -> concept:agentcollaborateswithagent -> concept:agentbelongstoorganization	1
+concept:agentcollaborateswithagent -> concept:agentcompeteswithagent_inv -> concept:competeswith	1
+concept:mutualproxyfor_inv -> concept:proxyfor -> concept:locationlocatedwithinlocation_inv	1
+concept:agentcollaborateswithagent_inv -> concept:organizationheadquarteredincity -> concept:organizationheadquarteredincity_inv	1
+concept:coachesinleague -> concept:teamplaysinleague_inv -> concept:agentcompeteswithagent	1
+concept:personhasjobposition -> concept:personhasjobposition_inv -> concept:personhasjobposition -> concept:atdate -> concept:atdate_inv -> concept:proxyfor -> concept:competeswith	1
+concept:personbelongstoorganization -> concept:organizationheadquarteredincity_inv -> concept:competeswith_inv	1
+concept:mutualproxyfor_inv -> concept:stadiumlocatedincity_inv -> concept:proxyfor_inv	1
+concept:organizationhiredperson_inv -> concept:atlocation_inv -> concept:proxyfor -> concept:companyeconomicsector -> concept:companyeconomicsector_inv	1
+concept:agentcontrols -> concept:subpartof_inv -> concept:agentcontrols_inv	1
+concept:personbelongstoorganization -> concept:agentactsinlocation_inv -> concept:companyeconomicsector -> concept:companyeconomicsector_inv	1
+concept:agentbelongstoorganization -> concept:agentbelongstoorganization_inv -> concept:agentbelongstoorganization	1
+concept:journalistwritesforpublication -> concept:headquarteredin -> concept:organizationheadquarteredincity_inv	1
+concept:agentcollaborateswithagent -> concept:agentcollaborateswithagent_inv	1
+concept:personbelongstoorganization -> concept:competeswith_inv -> concept:competeswith -> concept:journalistwritesforpublication_inv -> concept:journalistwritesforpublication -> concept:journalistwritesforpublication_inv -> concept:journalistwritesforpublication	1
+concept:personbornincity -> concept:atlocation -> concept:organizationheadquarteredinstateorprovince_inv	1
+concept:personleadsorganization -> concept:agentcompeteswithagent_inv -> concept:agentcompeteswithagent	1
+concept:agentcontributedtocreativework -> concept:bookwriter -> concept:journalistwritesforpublication -> concept:competeswith -> concept:competeswith_inv	1
+concept:organizationterminatedperson_inv -> concept:companyeconomicsector -> concept:companyeconomicsector_inv	1
+concept:personbelongstoorganization -> concept:agentcollaborateswithagent_inv -> concept:agentbelongstoorganization	1
+concept:personbelongstoorganization -> concept:headquarteredin_inv	1
+concept:agentcollaborateswithagent -> concept:atdate -> concept:atdate_inv	1
+concept:journalistwritesforpublication -> concept:atdate -> concept:atdate_inv	1
+concept:organizationhiredperson_inv -> concept:organizationheadquarteredinstateorprovince -> concept:personmovedtostateorprovince_inv -> concept:personbelongstoorganization	1
+concept:personbelongstoorganization -> concept:organizationhiredperson -> concept:organizationhiredperson_inv	1
+concept:personbelongstoorganization -> concept:atdate -> concept:atdate_inv -> concept:agentcompeteswithagent -> concept:competeswith	1
+concept:organizationhiredperson_inv -> concept:agentcontrols_inv -> concept:agentcompeteswithagent	1
+concept:agentcontrols_inv -> concept:agentcontrols_inv -> concept:agentcompeteswithagent_inv -> concept:competeswith	1
+concept:personchargedwithcrime -> concept:personchargedwithcrime_inv -> concept:organizationhiredperson_inv -> concept:teamplaysagainstteam_inv	1
+concept:agentcollaborateswithagent_inv -> concept:teamplaysincity	1
+concept:agentbelongstoorganization -> concept:atlocation -> concept:agentactsinlocation_inv	1
+concept:organizationhiredperson_inv -> concept:athleteledsportsteam_inv -> concept:personbelongstoorganization	1
+concept:agentcontrols -> concept:topmemberoforganization	1
+concept:agentcollaborateswithagent_inv -> concept:agentcollaborateswithagent -> concept:journalistwritesforpublication	1
+concept:ceoof -> concept:bankbankincountry -> concept:bankbankincountry_inv -> concept:personleadsorganization_inv -> concept:organizationhiredperson_inv	1
+concept:personbelongstoorganization -> concept:agentbelongstoorganization -> concept:acquired	1
+concept:agentcollaborateswithagent -> concept:agentinvolvedwithitem -> concept:agentinvolvedwithitem_inv	1
+concept:personleadsorganization -> concept:headquarteredin -> concept:headquarteredin_inv	1
+concept:organizationhiredperson_inv -> concept:organizationheadquarteredincity_inv	1
+concept:organizationhiredperson_inv -> concept:hasofficeincountry_inv	1
+concept:agentcollaborateswithagent_inv -> concept:agentparticipatedinevent -> concept:agentparticipatedinevent_inv	1
+concept:organizationterminatedperson_inv -> concept:companyeconomicsector -> concept:companyeconomicsector_inv -> concept:acquired	1
+concept:personbelongstoorganization -> concept:agentbelongstoorganization_inv -> concept:agentcollaborateswithagent	1
+concept:organizationhiredperson_inv -> concept:organizationterminatedperson -> concept:topmemberoforganization	1
+concept:organizationhiredperson_inv -> concept:hasofficeincountry -> concept:organizationhiredperson -> concept:organizationhiredperson_inv	1
+concept:coachesteam -> concept:organizationhiredperson -> concept:organizationhiredperson_inv	1
+concept:proxyfor	1
+concept:athletehomestadium -> concept:atlocation -> concept:atdate -> concept:atdate_inv	1
+concept:politicianrepresentslocation -> concept:locationlocatedwithinlocation	1
+concept:topmemberoforganization -> concept:hasofficeincity -> concept:headquarteredin_inv	1
+concept:organizationhiredperson_inv -> concept:agentparticipatedinevent -> concept:agentparticipatedinevent_inv	1
+concept:organizationhiredperson_inv -> concept:teamplaysincity -> concept:atlocation_inv	1
+concept:persondiedatage -> concept:persondiedatage_inv -> concept:ceoof	1
+concept:hasspouse -> concept:personbornincity -> concept:subpartof -> concept:competeswith	1
+concept:agentcollaborateswithagent_inv -> concept:hasofficeincity -> concept:organizationheadquarteredincity_inv -> concept:competeswith_inv -> concept:competeswith	1
+concept:organizationhiredperson_inv -> concept:agentcompeteswithagent_inv -> concept:agentcompeteswithagent	1
+concept:agentcollaborateswithagent_inv -> concept:organizationheadquarteredincity -> concept:hasofficeincity_inv	1
+concept:agentbelongstoorganization -> concept:statelocatedingeopoliticallocation_inv -> concept:statelocatedingeopoliticallocation	1
+concept:agentcollaborateswithagent -> concept:agentcontrols -> concept:organizationhiredperson_inv	1
+concept:journalistwritesforpublication -> concept:agentcontrols_inv -> concept:agentcompeteswithagent_inv	1
+concept:agentcollaborateswithagent_inv -> concept:locationlocatedwithinlocation -> concept:countryalsoknownas_inv -> concept:hasofficeincountry_inv	1
+concept:organizationhiredperson_inv -> concept:teamplaysincity	1
+concept:politicianusendorsedbypoliticianus_inv -> concept:politicianholdsoffice -> concept:synonymfor -> concept:hasofficeincity_inv	1
