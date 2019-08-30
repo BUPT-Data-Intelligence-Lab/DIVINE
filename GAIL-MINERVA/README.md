@@ -9,8 +9,14 @@ To install the various python dependences (including tensorflow)
 pip install -r requirements.txt
 ```
 
+## Dataset
+
+The preprocessed NELL-995  dataset can be downloaded [here](<https://drive.google.com/open?id=1SXK42ImtCkdTE-gxvfhJ_27K21vhqYKy>) and should be located in the [datasets](<https://github.com/Ruiping-Li/DIVINE/tree/master/GAIL-MINERVA/datasets>) directory.
+
 ## Training
-The hyperparam configs for each experiments are in the [configs](https://github.com/shehzaadzd/MINERVA/tree/master/configs) directory. To start a particular experiment, just do
+
+The hyperparameter configs for each experiments are in the [configs](<https://github.com/Ruiping-Li/DIVINE/tree/master/GAIL-MINERVA/configs>) directory. 
+To start a particular experiment, just do
 ```
 sh run.sh configs/${dataset}.sh
 ```
@@ -18,12 +24,28 @@ where the ${dataset}.sh is the name of the config file. For example,
 ```
 sh run.sh configs/athelehomestadium.sh
 ```
+To start the whole tranining experiment, just do
+```
+python train_nell.py
+```
 
 ## Testing
-We are also releasing pre-trained GAIL-MINERVA models for testing. They are located in the  [saved_models](https://github.com/shehzaadzd/MINERVA/tree/master/saved_models) directory. To load the model, set the ```load_model``` to 1 in the config file (default value 0) and ```model_load_dir``` to point to the saved_model.
+We are also releasing pre-trained GAIL-MINERVA models for testing. They can be downloaded [here](<https://drive.google.com/open?id=1KknUAhI9aVvgi08K0IZxrGpmSveBdU3N>) and should be located in the [output](<https://github.com/Ruiping-Li/DIVINE/tree/master/GAIL-MINERVA/output>) directory. To load the model, set the ```load_model``` to 1 in the config file (default value 0) and ```model_load_dir``` to point to the saved_model.
+To start a particular experiment, just do
+```
+sh run.sh test_configs/${dataset}.sh
+```
+where the ${dataset}.sh is the name of the config file. For example, 
+```
+sh run.sh test_configs/athelehomestadium.sh
+```
+To start the whole testing  experiment, just do
+```
+python test_nell.py
+```
 
 ## Output
-The code outputs the evaluation of MINERVA on the datasets provided. The metrics used for evaluation are Hits@{1,3,5,10,20} and MRR (which in the case of Countries is AUC-PR). Along with this, the code also outputs the answers MINERVA reached in a file.
+The metrics used for evaluation are Hits@{1,3}, MAP and MRR. Along with this, the code also outputs the answers GAIL-MINERVA reached in a file.
 
 
 ## Citation
