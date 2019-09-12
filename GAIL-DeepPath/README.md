@@ -30,7 +30,6 @@ To start the whole testing  experiment, just do
 ```
 cd scripts/
 python all_link_prediction.py
-python all_fact_prediction.py
 ```
 
 ## Output
