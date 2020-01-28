@@ -74,7 +74,7 @@ sklearn == 0.0
 # scripts/networks.py: 1
 # scripts/pretrain.py: 3
 # scripts/retrain.py: 3
-tensorflow_gpu == 1.15.0
+tensorflow_gpu == 1.15.2
 
 # scripts/pretrain.py: 16
 # scripts/retrain.py: 16
