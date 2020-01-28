@@ -27,7 +27,7 @@ scipy == 1.1.0
 # code/model/discriminator.py: 7
 # code/model/networks.py: 1
 # code/model/trainer.py: 9
-tensorflow_gpu == 1.15.0
+tensorflow_gpu == 1.15.2
 
 # code/data/feed_data.py: 1
 # code/model/trainer.py: 3
