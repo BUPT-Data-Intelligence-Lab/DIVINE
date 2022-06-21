@@ -13,7 +13,7 @@ future == 0.16.0
 # code/model/environment.py: 3
 # code/model/nell_eval.py: 5
 # code/model/trainer.py: 8
-numpy == 1.14.3
+numpy == 1.22.0
 
 # code/task_options.py: 2
 options == 1.4.10
