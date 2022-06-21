@@ -47,7 +47,7 @@ mee6-image-generator == 1.0.1
 # scripts/transH_eval.py: 5
 # scripts/transR_eval.py: 5
 # scripts/utils.py: 5
-numpy == 1.14.3
+numpy == 1.22.0
 
 # scripts/pretrain.py: 16
 # scripts/retrain.py: 16
